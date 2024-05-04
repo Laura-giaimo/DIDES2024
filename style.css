@@ -137,9 +137,14 @@ body {
 }
 
 /** Stars **/
-.layer .content-wrap .text .littlestars {
+.layer .littlestars {
     width: 30%;
     height: auto;
-    padding-top: 50%;
-
+    position: fixed;
+    top: 90%;
+    left: 50%;
 }
+
+
+
+
