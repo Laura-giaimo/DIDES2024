@@ -96,7 +96,7 @@ body {
 /** Fonts added for the quotes and infos **/
 .layer .content-wrap .text .quotes {
     font-family: "Helvetica Neue";
-    font-size: 2.1875em;
+    font-size: 1.8em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -104,7 +104,7 @@ body {
 
 .layer .content-wrap .text .infos {
     font-family: "proxima-nova", sans-serif;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -121,6 +121,10 @@ body {
     position: fixed;
     top: 1%;
     right: 3%;
+}
+
+.rightInfo span:first-of-type {
+    color: #FAB1AA;
 }
 
 /** Placement of the quotes **/
