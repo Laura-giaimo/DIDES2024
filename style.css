@@ -164,7 +164,7 @@ body {
     .layer .content-wrap .text .quotes {
         font-size: 1.2em;
         width: 70%;
-        padding: 2%;
+        top: 10%;
         align-items: center;
         text-align: center;
         
