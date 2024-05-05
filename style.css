@@ -151,8 +151,6 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-
-
     .layer .text p {
         font-size: 0.9em;
     }
