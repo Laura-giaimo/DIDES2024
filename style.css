@@ -15,7 +15,7 @@ body {
 .content-wrap {
     width: 100vw;
     height: 100vh;
-    min-height: 30em;
+    min-height: 20em;
 }
 
 .split-screen {
@@ -131,14 +131,14 @@ body {
 /** Placement of the quotes **/
 .leftQuote {
     position: fixed;
-    bottom: 25%;
-    right: 10%;
+    bottom: 20%;
+    right: 8%;
 }
 
 .rightQuote {
     position: fixed;
-    top: 25%;
-    left: 10%;
+    top: 20%;
+    left: 8%;
 }
 
 /** Rating-Stars **/
