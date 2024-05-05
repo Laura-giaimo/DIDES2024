@@ -151,6 +151,7 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
+
     .layer .text p {
         font-size: 0.9em;
     }
@@ -162,12 +163,15 @@ body {
     /** Fonts added for the quotes and infos **/
     .layer .content-wrap .text .quotes {
         font-size: 1.2em;
-        width: 35%;
+        width: 70%;
         padding: 2%;
+        align-items: center;
+        text-align: center;
+        
     }
 
     .layer .content-wrap .text .infos {
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
 
     /** Rating-Stars **/
