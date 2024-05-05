@@ -152,6 +152,14 @@ body {
 
 @media only screen and (max-width: 767px) {
 
+    .left {
+        border-right: 3px solid #fff539;
+    }
+
+    .layer h1 {
+        top: 10%;
+    }
+
     .layer .text p {
         font-size: 0.9em;
     }
@@ -164,10 +172,10 @@ body {
     .layer .content-wrap .text .quotes {
         font-size: 1.2em;
         width: 70%;
-        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
         align-items: center;
-        text-align: center;
-        
+
     }
 
     .layer .content-wrap .text .infos {
