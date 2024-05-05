@@ -152,17 +152,20 @@ body {
 
 @media only screen and (max-width: 767px) {
 
-    .left {
-        border-right: 3px solid #fff539;
-    }
 
     .layer .text p {
-        font-size: 0.8em;
+        font-size: 0.9em;
+    }
+
+    .rightInfo {
+        color: #FAB1AA;
     }
 
     /** Fonts added for the quotes and infos **/
     .layer .content-wrap .text .quotes {
         font-size: 1.2em;
+        width: 35%;
+        padding: 2%;
     }
 
     .layer .content-wrap .text .infos {
