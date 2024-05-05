@@ -150,6 +150,8 @@ body {
     left: 50%;
 }
 
+
+/** SMARTPHONE - responsive Design **/
 @media only screen and (max-width: 767px) {
     .left {
         border-right: 3px solid #fff539;
@@ -165,6 +167,10 @@ body {
 
     .rightInfo {
         color: #FAB1AA;
+    }
+
+    .rightQuote{
+        text-shadow: 2px 1px 5px #FAB1AA;
     }
 
     /** Fonts added for the quotes and infos **/
