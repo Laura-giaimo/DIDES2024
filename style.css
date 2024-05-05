@@ -110,7 +110,7 @@ body {
     line-height: normal;
 }
 
-/** Placement of the infos **/ 
+/** Placement of the infos **/
 .leftInfo {
     position: fixed;
     top: 1%;
@@ -126,6 +126,7 @@ body {
 .rightInfo span:first-of-type {
     color: #FAB1AA;
 }
+
 
 /** Placement of the quotes **/
 .leftQuote {
@@ -150,5 +151,78 @@ body {
 }
 
 
+/** Media Queries **/
+/* Media Query für das iPhone 14 */
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+
+    /** SplitScreen**/
+    .split-screen,
+    .layer,
+    .content-wrap {
+        min-height: 10em;
+    }
+
+    .content-wrap {
+        padding: 1.5em;
+    }
+
+    .left {
+        z-index: 2;
+        height: 50vh;
+        color: #FAB1AA;
+        border-top: 5px solid #fff539;
+    }
+
+    /** Text **/
+    .layer h1 {
+        max-width: 8em;
+        font-size: 1em;
+        font-size: clamp(1em, 5vw, 5em);
+    }
+    
+    .layer .text p {
+        margin-top: 1.3em;
+        font-size: 1em;
+        line-height: 1.3em;
+    }
+
+    /** Fonts added for the quotes and infos **/
+    .layer .content-wrap .text .quotes {
+        font-size: 0.8em;
+    }
+
+    /** Placement of the infos **/
+    .leftInfo {
+        position: fixed;
+        top: 1%;
+        left: 3%;
+    }
+
+    .rightInfo {
+        position: fixed;
+        top: 1%;
+        right: 3%;
+    }
 
 
+    /** Placement of the quotes **/
+    .leftQuote {
+        position: fixed;
+        bottom: 25%;
+        right: 10%;
+    }
+
+    .rightQuote {
+        position: fixed;
+        top: 25%;
+        left: 10%;
+    }
+
+    /** Rating-Stars **/
+    .layer .littlestars {
+        width: 50%;
+    }
+
+
+
+}
