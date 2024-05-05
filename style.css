@@ -167,10 +167,18 @@ body {
         color: #FAB1AA;
     }
 
+    .leftQuote {
+        bottom: 22%;
+    }
+    
+    .rightQuote {
+        top: 22%;
+    }
+
     /** Fonts added for the quotes and infos **/
     .layer .content-wrap .text .quotes {
         font-size: 1.2em;
-        width: 70%;
+        width: 60%;
         left: 50%;
         transform: translateX(-50%);
         align-items: center;
