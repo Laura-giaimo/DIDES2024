@@ -152,6 +152,14 @@ body {
 
 @media only screen and (max-width: 767px) {
 
+    .split-screen,
+    .layer,
+    .content-wrap {
+        width: 100vw;
+        height: auto;
+        min-height: 20em;
+    }
+
     .left {
         border-right: 3px solid #fff539;
     }
