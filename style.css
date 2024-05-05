@@ -170,7 +170,7 @@ body {
         z-index: 2;
         height: 50vh;
         color: #FAB1AA;
-        border-top: 5px solid #fff539;
+        border-right: 3px solid #fff539;
     }
 
     /** Text **/
@@ -220,7 +220,7 @@ body {
 
     /** Rating-Stars **/
     .layer .littlestars {
-        width: 50%;
+        width: 80%;
     }
 
 
