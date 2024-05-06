@@ -38,6 +38,6 @@ window.addEventListener('load', function() {
         setTimeout(function() {
             document.getElementById('overlay').remove();
         }, 500);
-    }, 1500); // 1.5Sekunden
+    }, 1000); // 1Sekunden
 });
 
