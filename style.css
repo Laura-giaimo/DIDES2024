@@ -198,10 +198,8 @@ body {
 }
 
 /** TABLET - responsive Design **/
-
-@media only screen and (min-width: 768px) and (max-width: 2049) {
+@media only screen and (min-width: 768px) and (max-width: 2049px) {
     .rightInfo {
         color: #FAB1AA;
     }
-
 }
