@@ -29,3 +29,15 @@ function splitScreen(e) {
     // Move top layer by setting its left position to the x coordinate value we set up
     topLayer.style.width = x + 'px';
 }
+
+// Swipe left and right
+// Nachdem die Seite vollständig geladen wurde
+window.addEventListener('load', function() {
+    setTimeout(function() {
+        document.getElementById('overlay').classList.add('hide');
+        setTimeout(function() {
+            document.getElementById('overlay').remove();
+        }, 500);
+    }, 3000); // 3Sekunden
+});
+
