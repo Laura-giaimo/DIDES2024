@@ -169,7 +169,7 @@ body {
         color: #FAB1AA;
     }
 
-    .rightQuote{
+    .rightQuote {
         text-shadow: 3px 5px 10px #FAB1AA;
     }
 
@@ -194,5 +194,14 @@ body {
     }
 
 
+
+}
+
+/** TABLET - responsive Design **/
+
+@media only screen and (max-width: 1000px) {
+    .rightInfo {
+        color: #FAB1AA;
+    }
 
 }
